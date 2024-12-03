@@ -1,8 +1,32 @@
-# Documentacao do Projeto de Autenticação e Gerenciamento de Usuários Baseado em Privilegio
+# Documentação do Projeto de Autenticação e Gerenciamento de Usuários Baseado em Privilegio
 
 ## Descrição da Proposta do Trabalho
 
-Este projeto implementa um sistema de autenticação e gerenciamento de usuários utilizando Flask, um framework web em Python. O sistema permite o registro de novos usuários, login, logout, visualização e atualização de perfis de usuário, além de funcionalidades administrativas para gerenciar todos os usuários.
+Este projeto implementa um sistema robusto de autenticação e gerenciamento de usuários utilizando Flask, um framework web leve e poderoso em Python. O sistema é projetado para oferecer uma solução segura e escalável para aplicações web que necessitam de controle de acesso baseado em privilégios.
+
+### Objetivos Principais:
+
+1. **Autenticação Segura**: Implementar um sistema de login que utiliza técnicas modernas de criptografia (Argon2) para proteger as senhas dos usuários.
+
+2. **Gerenciamento de Usuários**: Permitir o registro de novos usuários, bem como a visualização e atualização de perfis existentes.
+
+3. **Controle de Acesso Baseado em Papéis**: Implementar um sistema de privilégios que distingue entre diferentes tipos de usuários (por exemplo, clientes, PQLs e administradores), cada um com permissões específicas.
+
+4. **Interface Administrativa**: Desenvolver uma área administrativa para gerenciar todos os usuários do sistema, incluindo a capacidade de criar, atualizar e excluir contas.
+
+5. **Segurança Aprimorada**: Incorporar medidas de segurança como proteção contra ataques de força bruta, validação de entrada e sanitização de dados.
+
+6. **Experiência de Usuário Intuitiva**: Criar uma interface de usuário amigável e responsiva para todas as funcionalidades do sistema.
+
+### Funcionalidades Chave:
+
+- Registro de novos usuários com validação de dados
+- Login seguro com proteção contra tentativas excessivas
+- Logout e gerenciamento de sessões
+- Recuperação de senha via e-mail
+- Visualização e edição de perfil de usuário
+- Painel administrativo para gerenciamento de usuários
+- Filtros e pesquisas para facilitar a administração de usuários
 
 ## Modelo de Dados
 
