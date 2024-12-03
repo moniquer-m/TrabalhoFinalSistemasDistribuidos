@@ -42,6 +42,14 @@ O sistema utiliza o seguinte modelo de dados:
 5. **Atualização de Dados**: Recebimento de POST request e atualização de dados do usuário.
 6. **Funcionalidades Administrativas**: Processamento de requests para listar, atualizar e excluir usuários.
 
+## Descrição do Serviço no Servidor
+
+O servidor utiliza Flask para gerenciar as rotas e processar as requisições. Ele implementa as seguintes funcionalidades principais:
+
+1. **Autenticação de Usuários**: Verifica as credenciais fornecidas e cria sessões para usuários autenticados.
+2. **Gerenciamento de Usuários**: Permite a criação, leitura, atualização e exclusão de usuários.
+3. **Controle de Acesso**: Restringe o acesso a certas rotas com base nas permissões do usuário.
+4. **Armazenamento de Dados**: Utiliza um sistema de armazenamento (por exemplo, um banco de dados) para manter as informações dos usuários.
 
 ## Comunicação Cliente-Servidor
 
@@ -92,11 +100,4 @@ Aqui está um exemplo detalhado do fluxo de comunicação para o processo de log
 
 Esta arquitetura de comunicação permite uma interação eficiente e segura entre o frontend e o backend, fornecendo uma base sólida para as funcionalidades do sistema de autenticação e gerenciamento de usuários.
 
-## Descrição do Serviço no Servidor
 
-O servidor utiliza Flask para gerenciar as rotas e processar as requisições. Ele implementa as seguintes funcionalidades principais:
-
-1. **Autenticação de Usuários**: Verifica as credenciais fornecidas e cria sessões para usuários autenticados.
-2. **Gerenciamento de Usuários**: Permite a criação, leitura, atualização e exclusão de usuários.
-3. **Controle de Acesso**: Restringe o acesso a certas rotas com base nas permissões do usuário.
-4. **Armazenamento de Dados**: Utiliza um sistema de armazenamento (por exemplo, um banco de dados) para manter as informações dos usuários.
