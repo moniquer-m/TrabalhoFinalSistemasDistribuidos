@@ -17,10 +17,38 @@ O sistema utiliza o seguinte modelo de dados:
 
 ## Configuração e Instalação
 
+Para configurar e executar este projeto, siga os passos abaixo:
+
+### Pré-requisitos
+
+- Python 3.7 ou superior
+- pip (gerenciador de pacotes do Python)
+
+### Passos de Instalação
+
 1. Clone o repositório
-2. Instale as dependências: `pip install -r requirements.txt`
-3. Configure as variáveis de ambiente (veja `.env.example`)
-4. Execute o servidor: `python app.py`
+
+2. Crie um ambiente virtual (recomendado):
+python -m venv venv source venv/bin/activate # No Windows use venv\Scripts\activate
+
+3. Instale as dependências:
+pip install flask flask-login itsdangerous passlib[argon2]
+
+### Executando o Projeto
+
+Para iniciar o servidor de desenvolvimento, execute:
+
+python run.py
+
+O servidor será iniciado e estará acessível em `http://localhost:5000` por padrão.
+
+### Notas Adicionais
+
+- Certifique-se de que todas as dependências estão instaladas corretamente.
+
+Se encontrar problemas durante a instalação ou execução:
+1. Verifique se todas as dependências foram instaladas corretamente.
+2. Verifique os logs de erro para informações mais detalhadas.
 
 ## Requisitos Funcionais
 
