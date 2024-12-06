@@ -56,7 +56,9 @@ Para configurar e executar este projeto, siga os passos abaixo:
 python -m venv venv source venv/bin/activate # No Windows use venv\Scripts\activate
 
 3. Instale as dependências:
-pip install flask flask-login itsdangerous passlib[argon2]
+pip install flask
+pip install flask-login
+pip install passlib
 
 ### Executando o Projeto
 
